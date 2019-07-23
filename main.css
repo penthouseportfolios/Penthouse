@@ -52,6 +52,7 @@ stac4{
  	width: 50%;
 	position: relative; 
 	top: 80px;
+	vertical-align: middle;
 }
 cldr{
 	display: block;
@@ -60,6 +61,7 @@ cldr{
  	width: 50%;
 	position: relative; 
 	top: 140px;
+	vertical-align: middle;
 }
 about{
 	font-family: 'Oswald', sans-serif;
