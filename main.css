@@ -106,8 +106,6 @@ cldrhead{
 }
 cldr{
 	display: block;
-  	margin-left: auto;
- 	margin-right: auto;
  	width: 100%;
 	position: relative; 
 	top: 80px;
@@ -127,8 +125,6 @@ primhead{
 }
 prim{
 	display: block;
-  	margin-left: auto;
- 	margin-right: auto;
  	width: 100%;
 	position: relative; 
 	top: 130px;
@@ -148,8 +144,6 @@ mpchead{
 }
 mpc{
 	display: block;
-  	margin-left: auto;
- 	margin-right: auto;
  	width: 100%;
 	position: relative; 
 	top: 180px;
