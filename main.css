@@ -111,7 +111,6 @@ cldr{
  	width: 50%;
 	position: relative; 
 	top: 80px;
-	vertical-align: middle;
 }
 primhead{
 	font-family: 'Oswald', sans-serif;
@@ -132,7 +131,6 @@ prim{
  	width: 100%;
 	position: relative; 
 	top: 50px;
-	vertical-align: middle;
 }
 mpchead{
 	font-family: 'Oswald', sans-serif;
@@ -153,7 +151,6 @@ mpc{
  	width: 50%;
 	position: relative; 
 	top: 180px;
-	vertical-align: middle;
 }
 stac4{
 	display: block;
