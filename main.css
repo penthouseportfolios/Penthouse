@@ -12,8 +12,9 @@ body{
 }
 h1{
 	font-family: 'Oswald', sans-serif;
-	font-size: 1000%;
-    color: #4d9efa;
+	font-size: 600%;
+    color: black;
+    top: -50px;
 }
 h2{
 	font-family: 'Oswald', sans-serif;
@@ -56,6 +57,18 @@ stacbody{
  	width: 50%;
 	position: relative; 
 	top: 90px;
+}
+phlogo{
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%;
+    color: #333;
+    display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	padding: 5px 5px;
+ 	width: 50%;
+	position: relative; 
+	top: 70px;
 }
 stacimg4{
 	font-family: 'Oswald', sans-serif;
@@ -161,7 +174,7 @@ stac4{
 about{
 	font-family: 'Oswald', sans-serif;
 	font-size: 175%;
-    color: #4d9efa;
+    color: black;
 	padding: 0px 0px;
 	position: relative; 
 	top: 80px;
@@ -177,7 +190,7 @@ message{
 sig{
 	font-family: 'Oswald', sans-serif;
 	font-size: 175%;
-    color: #4d9efa;
+    color: black;
 	padding: 0px 0px;
 	position: relative; 
 	top: 80px;
@@ -197,7 +210,7 @@ ul {
 }
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
