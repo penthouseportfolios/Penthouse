@@ -1,5 +1,5 @@
 body{
-	background:#cdd0d1;
+	background:#ff4040;
 	font-family: 'Oswald', sans-serif;
     color: #333;
 	text-align: center;
@@ -28,7 +28,7 @@ h2{
 stac{
 	font-family: 'Oswald', sans-serif;
 	font-size: 80px;
-    color: #333;
+    color: black;
     text-align: center
 	padding: 0px 0px;
 	position: relative; 
@@ -37,7 +37,7 @@ stac{
 comesoon{
 	font-family: 'Oswald', sans-serif;
 	font-size: 175%;
-    color: #333;
+    color: black;
     display: block;
   	margin-left: auto;
  	margin-right: auto;
@@ -49,7 +49,7 @@ comesoon{
 stacbody{
 	font-family: 'Oswald', sans-serif;
 	font-size: 150%;
-    color: #333;
+    color: black;
     display: block;
   	margin-left: auto;
  	margin-right: auto;
@@ -61,7 +61,7 @@ stacbody{
 phlogo{
 	font-family: 'Oswald', sans-serif;
 	font-size: 150%;
-    color: #333;
+    color: blue;
     display: block;
   	margin-left: auto;
  	margin-right: auto;
@@ -85,7 +85,7 @@ stacimg4{
 trec{
 	font-family: 'Oswald', sans-serif;
 	font-size: 175%;
-    color: #333;
+    color: black;
     display: block;
   	margin-left: auto;
  	margin-right: auto;
@@ -97,18 +97,18 @@ trec{
 captionn{
 	font-family: 'Oswald', sans-serif;
 	font-size: 100%;
-    color: #333;
+    color: black;
     display: block;
   	margin-left: auto;
  	margin-right: auto;
  	width: 50%;
 	position: relative; 
-	top: 140px;
+	top: 170px;
 }
 cldrhead{
 	font-family: 'Oswald', sans-serif;
 	font-size: 150%;
-    color: #333;
+    color: black;
     display: block;
   	margin-left: auto;
  	margin-right: auto;
@@ -127,7 +127,7 @@ cldr{
 primhead{
 	font-family: 'Oswald', sans-serif;
 	font-size: 150%;
-    color: #333;
+    color: black;
     display: block;
   	margin-left: auto;
  	margin-right: auto;
@@ -146,7 +146,7 @@ prim{
 mpchead{
 	font-family: 'Oswald', sans-serif;
 	font-size: 150%;
-    color: #333;
+    color: black;
     display: block;
   	margin-left: auto;
  	margin-right: auto;
@@ -182,7 +182,7 @@ about{
 message{
 	font-family: 'Oswald', sans-serif;
 	font-size: 150%;
-    color: #333;
+    color: black;
 	padding: 0px 0px;
 	position: relative; 
 	top: 80px;
