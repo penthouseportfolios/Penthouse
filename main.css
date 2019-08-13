@@ -1,5 +1,5 @@
 body{
-	background:#ff4040;
+	background-image: url("glitch.jpg");
 	font-family: 'Oswald', sans-serif;
     color: #333;
 	text-align: center;
@@ -11,7 +11,7 @@ body{
 	text-align: center
 }
 h1{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Pirata One', cursive;
 	font-size: 600%;
     color: black;
     top: -50px;
