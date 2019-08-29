@@ -42,7 +42,18 @@ h3{
 words{
 	font-family: 'Lexend Tera', sans-serif;
     color: black;
-	font-size: 90%;
+	font-size: 120%;
+	text-align: center;
+	padding: 5px 5px;
+	position: relative;
+	top: 90px;
+	word-wrap: break-word;
+	max-width: 50px;
+}
+email{
+	font-family: 'Lexend Tera', sans-serif;
+    color: black;
+	font-size: 150%;
 	text-align: center;
 	padding: 5px 5px;
 	position: relative;
