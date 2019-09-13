@@ -1,33 +1,28 @@
 body{
 	background:white;
-	font-family: 'Lexend Tera', sans-serif;
-    color: black;
+	font-family: Arial;
+    font-size: 10pt;
+    color: #333;
 	text-align: center;
-	padding: 5px 5px;
 }
 .class{
 	font-family: 'Oswald', sans-serif;
 	font-size: 150%;
 	text-align: center;
-	position: relative; 
-	top: 10px;
 }
 h1{
 	font-family: 'Lexend Tera', sans-serif;
-	font-size: 300%;
+	font-size: 250%;
     color: black;
-	text-align: center;
-	padding: 5px 5px;
-	position: relative;
-	top: 140px;
+  	margin-left: auto;
+ 	margin-right: auto;
 }
 h2{
 	font-family: 'Lexend Tera', sans-serif;
 	font-size: 200%;
     color: black;
 	text-align: center;
-	position: relative; 
-	top: 100px;
+	position: relative;
 	float: none;
 	margin: auto;
 }
@@ -36,42 +31,59 @@ h3{
 	font-size: 200%;
     color: black;
 	text-align: center;
-	position: relative; 
-	top: 100px;
-}
-words{
-	font-family: 'Lexend Tera', sans-serif;
-    color: black;
-	font-size: 120%;
-	text-align: center;
-	padding: 5px 5px;
 	position: relative;
-	top: 90px;
-	word-wrap: break-word;
-	max-width: 50px;
+}
+h4{
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 200%;
+    color: black;
+	text-align: center;
+	position: relative;
 }
 email{
 	font-family: 'Lexend Tera', sans-serif;
     color: black;
 	font-size: 150%;
 	text-align: center;
-	padding: 5px 5px;
-	position: relative;
-	top: 90px;
+	margin-left:auto;
+	margin-right:auto;
 }
 abt{
 	background:white;
-	font-family: 'Lexend Tera', sans-serif;
-    color: black;
+	font-family: Arial;
+    font-size: 10pt;
+    color: #333;
 	text-align: center;
-	padding: 5px 5px;
+    width: 385px;
+}
+td{
+	display: table-cell;
+}
+p{
+	margin-left: 25%;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: black;
+    margin-right: 25%;
+    word-wrap: break-word;
+}
+table{
+	border-collapse: separate;
+    border-spacing: 2px;
+}
+hdr{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	margin: 0;
 }
 mnts{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 	position: relative;
-	top: 180px;
+	margin: 0;
 }
 phlogo{
 	font-family: 'Oswald', sans-serif;
@@ -80,10 +92,8 @@ phlogo{
     display: block;
   	margin-left: auto;
  	margin-right: auto;
- 	padding: 5px 5px;
  	width: 50%;
-	position: relative; 
-	top: 70px;
+	position: relative;
 }
 pre{
 	font-family: 'Oswald', sans-serif;
@@ -93,47 +103,32 @@ pre{
 		font-family: 'Oswald', sans-serif;
 	text-align: center;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 .navbar {
-    overflow: hidden;
     background-color: black;
-    position: fixed;
-    height: 100px;
-    top: -20px;
-    width: 94%;
-    margin: 3%;
-    padding: 0;
+    height: 50px;
+    width: 960px;
+    margin-left: auto;
+ 	margin-right: auto;
 }
 
 .navbar a {
 	font-family: 'Lexend Tera', sans-serif;
     float: right;
-    display: block;
     color: white;
     text-align: center;
-    padding: 35px 80px;
+    padding: 17px 17px;
     text-decoration: none;
     position: relative;
 }
+b1 {
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 250%;
+    color: black;
+  	margin-left: auto;
+ 	margin-right: auto;
 
-.navbar b1 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 150%;
-    color: white;
-    padding: 0px 20px;
-    float: left;
 }
-
-
 .navbar a:hover {
     background: #ddd;
     color: black;
-}
-
-.main {
-    margin-top: 30px;
 }
