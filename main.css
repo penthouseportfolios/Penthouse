@@ -1,134 +1,46 @@
-body{
-	background:white;
-	font-family: Arial;
-    font-size: 10pt;
-    color: black;
-	text-align: center;
-}
-.class{
-	font-family: 'Oswald', sans-serif;
-	font-size: 150%;
-	text-align: center;
-}
-h1{
-	font-family: 'Lexend Tera', sans-serif;
-	font-size: 250%;
-    color: black;
-  	margin-left: auto;
- 	margin-right: auto;
-}
-h2{
-	font-family: 'Lexend Tera', sans-serif;
-	font-size: 200%;
-    color: black;
-	text-align: center;
-	position: relative;
-	float: none;
-	margin: auto;
-}
-h3{
-	font-family: 'Lexend Tera', sans-serif;
-	font-size: 200%;
-    color: black;
-	text-align: center;
-	position: relative;
-}
-h4{
-	font-family: 'Lexend Tera', sans-serif;
-	font-size: 200%;
-    color: black;
-	text-align: center;
-	position: relative;
-}
-email{
-	font-family: 'Lexend Tera', sans-serif;
-    color: black;
-	font-size: 150%;
-	text-align: center;
-	margin-left:auto;
-	margin-right:auto;
-}
-abt{
-	background:white;
-	font-family: Arial;
-    font-size: 10pt;
-    color: #333;
-	text-align: center;
-    width: 385px;
-}
-td{
-	display: table-cell;
-}
-p{
-	margin-left: 25%;
-    font-family: Helvetica;
-    font-size: 15px;
-    color: black;
-    margin-right: 25%;
-    word-wrap: break-word;
-}
-table{
-	border-collapse: separate;
-    border-spacing: 2px;
-}
-hdr{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	position: relative;
-	margin: 0;
-}
-mnts{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	position: relative;
-	margin: 0;
-}
-phlogo{
-	font-family: 'Oswald', sans-serif;
-	font-size: 150%;
-    color: blue;
-    display: block;
-  	margin-left: auto;
- 	margin-right: auto;
- 	width: 50%;
-	position: relative;
-}
-pre{
-	font-family: 'Oswald', sans-serif;
-	text-align: center;
-}
-.blah{
-		font-family: 'Oswald', sans-serif;
-	text-align: center;
-}
 .navbar {
     background-color: black;
     height: 50px;
-    width: 960px;
+    width: 1400px;
     margin-left: auto;
  	margin-right: auto;
 }
 
 .navbar a {
 	font-family: 'Lexend Tera', sans-serif;
+    font-size: 15px;
     float: right;
     color: white;
     text-align: center;
-    padding: 17px 17px;
+    padding: 10px 10px;
     text-decoration: none;
     position: relative;
-}
-b1 {
-	font-family: 'Lexend Tera', sans-serif;
-	font-size: 250%;
-    color: black;
-  	margin-left: auto;
- 	margin-right: auto;
-
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .navbar a:hover {
     background: #ddd;
     color: black;
+}
+
+pagetext{
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 100%;
+    color: black;
+    text-align: center;
+    float: right;
+    padding-top: 100px;
+    margin-left: 10%;
+ 	margin-right: 10%;
+
+}
+contactinfo{
+    font-family: 'Lexend Tera', sans-serif;
+	font-size: 100%;
+    color: black;
+    text-align: center;
+    float: right;
+    padding-top: 100px;
+    margin-left: 40%;
+ 	margin-right: 40%;
 }
