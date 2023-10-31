@@ -28,8 +28,10 @@ pagetext{
 	font-size: 100%;
     color: black;
     text-align: center;
-    position: relative;
+    float: right;
     padding-top: 100px;
+    margin-left: 10%;
+ 	margin-right: 10%;
 
 }
 contactinfo{
@@ -37,7 +39,6 @@ contactinfo{
 	font-size: 100%;
     color: black;
     text-align: center;
-    float: right;
     padding-top: 100px;
     margin-left: 40%;
  	margin-right: 40%;
