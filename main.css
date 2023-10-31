@@ -39,6 +39,7 @@ contactinfo{
 	font-size: 100%;
     color: black;
     text-align: center;
+    float: right;
     padding-top: 100px;
     margin-left: 40%;
  	margin-right: 40%;
