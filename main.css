@@ -1,16 +1,10 @@
 .navbar {
-	font-family: 'Lexend Tera', sans-serif;
-    font-size: 15px;
-    float: right;
-    color: white;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color: black;
+    height: 50px;
+    width: 1400px;
+    margin-left: auto;
+ 	margin-right: auto;
 }
-
 .navbar a {
 	font-family: 'Lexend Tera', sans-serif;
     font-size: 15px;
@@ -27,7 +21,6 @@
     background: #ddd;
     color: black;
 }
-
 pagetext{
 	font-family: 'Lexend Tera', sans-serif;
 	font-size: 100%;
@@ -35,6 +28,8 @@ pagetext{
     text-align: center;
     float: right;
     padding-top: 100px;
+    margin-left: 10%;
+ 	margin-right: 10%;
     margin-left: 25%;
  	margin-right: 25%;
 
