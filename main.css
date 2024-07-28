@@ -13,6 +13,52 @@ body{
     padding:0;
     margin:0;
 }
+.page1header{
+    padding-top: 7vh;
+    margin-left: 7%;
+    font-size: 7vw;
+    font-weight: bold;
+}
+.page1text{
+    padding-top: 15vh;
+    margin-left: 7%;
+    font-size: 3vw;
+}
+.page1{
+    left: 0;
+	font-family: "Korbin W01 Medium";
+    color: rgb(255, 255, 255);
+    text-align:left;
+    display:block;
+    position: relative;
+    background-color: rgb(37, 41, 87);
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+}
+.page2header{
+    padding-top: 7vh;
+    margin-left: 7%;
+    font-size: 7vw;
+    font-weight: bold;
+}
+.page2text{
+    padding-top: 15vh;
+    margin-left: 7%;
+    font-size: 3vw;
+}
+.page2{
+    left: 0;
+	font-family: "Korbin W01 Medium";
+    color: rgb(255, 255, 255);
+    text-align:left;
+    display:block;
+    position: relative;
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+}
 .splashtext{
     margin-top: 7%;
     margin-left: 7%;
