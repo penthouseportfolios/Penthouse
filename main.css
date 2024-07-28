@@ -1,88 +1,59 @@
 .navbar {
-    display:block;
+    display: flex;
     background-color: black;
-    margin-left: 10%;
- 	  margin-right: 10%;
-    padding: 10px 10px;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding-left: 200px;
+    padding-right: 200px;
 }
-.navbar a {
-    
-	font-family: 'Lexend Tera', sans-serif;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
+body{
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
-.navbar a:hover {
-    background: #ddd;
-    color: black;
+.splashtext{
+    margin-top: 7%;
+    margin-left: 7%;
 }
-body {
-  background-color: rgb(0, 0, 0);
-}
-
-h1{
-	font-family: 'Lexend Tera', sans-serif;
-    font-size: 25px;
-    color: black;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.center-logo {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 7%;
-  }
-.center-stratpic {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-  }
-  .center-citypic {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 1%;
-    width: 80%;
-  }
-@font-face {
-    font-family: 'FM Bolyar Sans Pro';
-    src: local('FM Bolyar Sans Pro 500'), local('FM-Bolyar-Sans-Pro-500'),
-        url('FMBolyarSansPro-500.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-.companyname {
-    font-family: "FM Bolyar Sans Pro";
-    color: black;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-p{
-    font-family: 'Lexend Tera', sans-serif;
-    margin-top: 1%;
-    margin-right: 25%;
-	  margin-left: 25%;
-    font-size: 15px;
+.splash{
+    left: 0;
+	font-family: "Korbin W01 Medium";
+    font-size: 1600%;
     color: rgb(255, 255, 255);
-    word-wrap: break-word;
-    text-align: center;
+    text-align:left;
+    display:flex;
+    position: relative;
+    font-weight: bold;
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),url('back2.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+}
+h1{
+    left: 0;
+	font-family: 'Lexend Tera', sans-serif;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 10px 10px;
+}
+.companynameheader{
+    display: flex;
+    margin-right: 12px;
+    right: 0;
+    width: 5%;
+    padding-left: 150px;
+    padding-right: 150px;
+    float: left;
+    left: 150px;
+  }
+.companylogoheader{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: absolute;
+    top: 0;
+    right: 200px;
 }
