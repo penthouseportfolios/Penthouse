@@ -82,7 +82,7 @@ body{
 h1{
     left: 0;
 	font-family: 'Lexend Tera', sans-serif;
-    font-size: 1vw;
+    font-size: 100%;
     color: rgb(255, 255, 255);
     text-align: left;
     padding: 10px 10px;
@@ -103,5 +103,6 @@ h1{
     padding-right: 200px;
     position: absolute;
     top: 0;
+    size: 100%;
     right: 200px;
 }
