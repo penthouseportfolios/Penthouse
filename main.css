@@ -68,7 +68,7 @@ body{
 .splash{
     left: 0;
 	font-family: "Korbin W01 Medium";
-    font-size: 25vh;
+    font-size: 13vw;
     color: rgb(255, 255, 255);
     text-align:left;
     display:flex;
