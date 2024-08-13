@@ -62,7 +62,7 @@ body{
     padding:0;
 }
 .splashtext{
-    margin-top: 0px;
+    margin-top: 60vh;
     margin-left: 7%;
 }
 .splash{
@@ -76,7 +76,7 @@ body{
     font-weight: bold;
     background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),url('back2.gif');
     background-size: cover;
-    height: 100vh;
+    height: 200vh;
     padding:0;
 }
 h1{
