@@ -4,7 +4,7 @@
     right: 0;
     left: 0;
     top: 0;
-    height: 80px;
+    height: 100px;
     position: relative;
     padding-left: 200px;
     padding-right: 200px;
@@ -62,7 +62,7 @@ body{
     padding:0;
 }
 .splashtext{
-    margin-top: -25px;
+    margin-top: -45px;
     margin-left: 7%;
 }
 .splash{
@@ -82,7 +82,7 @@ body{
 h1{
     left: 0;
 	font-family: 'Lexend Tera', sans-serif;
-    font-size: 100%;
+    font-size: 125%;
     color: rgb(255, 255, 255);
     text-align: left;
     padding: 10px 10px;
@@ -92,7 +92,7 @@ h1{
     margin-right: 12px;
     right: 0;
     width: 5%;
-    padding-left: 150px;
+    padding-left: 0px;
     padding-right: 150px;
     float: left;
     left: 150px;
@@ -100,7 +100,7 @@ h1{
 .companylogoheader{
     display: flex;
     padding-left: 200px;
-    padding-right: 200px;
+    padding-right: 00px;
     position: absolute;
     top: 0;
     size: 100%;
