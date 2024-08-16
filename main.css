@@ -62,22 +62,24 @@ body{
     padding:0;
 }
 .splashtext{
-    margin-top: 0vh;
-    margin-left: 7%;
-}
-.splash{
     left: 0;
 	font-family: "Korbin W01 Medium";
-    font-size: 13vw;
+    font-size: 11vw;
     color: rgb(255, 255, 255);
     text-align:left;
     display:flex;
     position: relative;
     font-weight: bold;
+    background-size: cover;
+    padding:0;
+    margin-top: 0vh;
+    margin-left: 11%;
+}
+.splash{
+    height: 100vh;
     background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),url('back2.gif');
     background-size: cover;
-    height: 100vh;
-    padding:0;
+
 }
 h1{
     left: 0;
