@@ -9,38 +9,52 @@ Penthouse Portfolios
   <link href="https://db.onlinewebfonts.com/c/953440d6182da090377d805e5156873c?family=Korbin+W01+Medium" rel="stylesheet">
 	<link href="main.css" rel="stylesheet" type="text/css"/>
 <body>
-
-
-  <div class = "splash">
-    <div class = "navbar">
-      <div class = "companylogoheader">
-        <a href="index.html"><img src="phwhitelogo.png" alt="logo" width="100vw"></a>
-      </div>
-      <div class = "companynameheader">
-        <h1>Penthouse Portfolios</h1>
-      </div>
-    </div>
-    <div class = "splashtext">
-      The Next<br>&emsp;Generation<br>&emsp;&emsp; Is Here.↓
-    </div>
-  </div>
-
-  <div class = "page1">
-    <div class = "page1header">
+<div class="fullscreen">
+  <div class="fullscreen-wrapper"></div>
+    <h1 class = "splashtext">
+        The Next<br>&emsp;Generation<br>&emsp;&emsp; Is Here.↓
+    </h1>
+    <h3 class = "page1header">
       About
-    </div>
+    </h3>
     <div class = "page1text">
       Penthouse Portfolios is a quantitative technology firm based in Richmond, Virginia that uses proprietary technology to build trading systems tailored to client needs. Our research focuses on the implementation of neural networks into trading environments. 
     </div>
-  </div>
-  
-  <div class = "page2">
-    <div class = "page2header">
+    <h3 class = "page1header">
       Contact
-    </div>
-    <div class = "page2text">
-      For more information, please email <a href="mailto:josh@pentport.com">josh@pentport.com
+    </h3>
+    <div class = "page1text">
+      For more information, please email josh@pentport.com
+      <br><br><br><br>
     </div>
   </div>
 </body>
+<div class = "navbar">
+  <div class = "companylogoheader">
+    <a href="index.html"><img src="phwhitelogo.png" alt="logo" width="100vw"></a>
+  </div>
+  <div class = "companynameheader">
+    <h1>Penthouse Portfolios</h1>
+  </div>
+</div>
 </html>
+
+<script>
+  document.addEventListener('scroll', function() {
+      const maxScroll = window.innerHeight;
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+      const opacity = 1 - (scrollPosition / maxScroll);
+
+      // Select all elements that contain text
+      const textElements = document.querySelectorAll('.navbar, .splashtext, .page1header, .page1text, .page2header, .page2text');
+
+      textElements.forEach(function(element) {
+          if (opacity <= 0) {
+              element.classList.add('fade-out');
+          } else {
+              element.classList.remove('fade-out');
+              element.style.opacity = opacity;
+          }
+      });
+  });
+</script>

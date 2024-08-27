@@ -5,7 +5,7 @@
     left: 0;
     top: 0;
     height: 100px;
-    position: relative;
+    position: fixed;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -13,14 +13,19 @@ body{
     height: 100vh;
     padding:0;
     margin:0;
+    min-height: 100vh;
 }
 .page1header{
+    color: white;
+    font-family: "Korbin W01 Medium";
     padding-top: 7vh;
     margin-left: 7%;
     font-size: 7vw;
     font-weight: bold;
 }
 .page1text{
+    color: white;
+    font-family: "Korbin W01 Medium";
     padding-top: 15vh;
     margin-left: 5%;
     margin-right: 5%;
@@ -32,19 +37,23 @@ body{
     color: rgb(255, 255, 255);
     text-align:left;
     display:block;
-    position: relative;
+    position: static;
     background-color: rgb(37, 41, 87);
     background-size: cover;
     height: 100vh;
     padding:0;
 }
 .page2header{
+    color: white;
+    font-family: "Korbin W01 Medium";
     padding-top: 7vh;
     margin-left: 7%;
     font-size: 7vw;
     font-weight: bold;
 }
 .page2text{
+    color: white;
+    font-family: "Korbin W01 Medium";
     padding-top: 15vh;
     margin-left: 7%;
     font-size: 3vw;
@@ -65,21 +74,48 @@ body{
     left: 0;
 	font-family: "Korbin W01 Medium";
     font-size: 11vw;
-    color: rgb(255, 255, 255);
     text-align:left;
     display:flex;
     position: relative;
     font-weight: bold;
     background-size: cover;
     padding:0;
-    margin-top: 0vh;
+    margin-top: 15vh;
     margin-left: 11%;
 }
-.splash{
+
+
+.fullscreen {
+    position: relative;
+    width: 100vw;
     height: 100vh;
     background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),url('back2.gif');
     background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+}
+.fullscreen-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.fade-out {
+    overflow: hidden;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
 
+.fullscreen-wrapper h1, h2 {
+    padding-left: 10%;
+}
+.fullscreen-wrapper h1 {
+    font-size: 128px;
+    padding-top: 25%;
+}
+.fullscreen-wrapper h2 {
+    font-size: 256px;
+    padding-top: 10%;
 }
 h1{
     left: 0;
