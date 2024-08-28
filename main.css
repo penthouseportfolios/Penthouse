@@ -71,17 +71,16 @@ body{
     padding:0;
 }
 .splashtext{
-    left: 0;
 	font-family: "Korbin W01 Medium";
-    font-size: 11vw;
+    font-size: 175px;
     text-align:left;
     display:flex;
     position: relative;
     font-weight: bold;
     background-size: cover;
-    padding:0;
     margin-top: 15vh;
-    margin-left: 11%;
+    margin-bottom: 15vh;
+    margin-left: 10%;
 }
 
 
