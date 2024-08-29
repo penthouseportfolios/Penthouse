@@ -20,6 +20,14 @@ Penthouse Portfolios
     <div class = "page1text">
       Penthouse Portfolios is a quantitative technology firm based in Richmond, Virginia that uses proprietary technology to build trading systems tailored to client needs. Our research focuses on the implementation of neural networks into trading environments. 
     </div>
+    <br><br><br><br><br>
+    <h3 class = "page1header">
+      Open Positions
+    </h3>
+    <div class = "page1text">
+      Web Developer - <a href="webdevap.html">Apply Here</a>
+    </div>
+    <br><br><br><br><br>
     <h3 class = "page1header">
       Contact
     </h3>
@@ -34,27 +42,7 @@ Penthouse Portfolios
     <a href="index.html"><img src="phwhitelogo.png" alt="logo" width="100vw"></a>
   </div>
   <div class = "companynameheader">
-    <h1>Penthouse Portfolios</h1>
+    <h1><a href="index.html">Penthouse Portfolios</a></h1>
   </div>
 </div>
 </html>
-
-<script>
-  document.addEventListener('scroll', function() {
-      const maxScroll = window.innerHeight;
-      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
-      const opacity = 1 - (scrollPosition / maxScroll);
-
-      // Select all elements that contain text
-      const textElements = document.querySelectorAll('.navbar, .splashtext, .page1header, .page1text, .page2header, .page2text');
-
-      textElements.forEach(function(element) {
-          if (opacity <= 0) {
-              element.classList.add('fade-out');
-          } else {
-              element.classList.remove('fade-out');
-              element.style.opacity = opacity;
-          }
-      });
-  });
-</script>

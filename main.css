@@ -82,8 +82,20 @@ body{
     margin-bottom: 15vh;
     margin-left: 10%;
 }
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
+a:hover {
+    color: rgb(121, 115, 212);
+    text-decoration: none;
+}
 .fullscreen {
     position: relative;
     width: 100vw;
