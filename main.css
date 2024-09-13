@@ -9,6 +9,19 @@
     padding-left: 200px;
     padding-right: 200px;
 }
+@font-face{
+    font-family: "Korbin W01 Medium\";
+    src: url("http://db.onlinewebfonts.com/t/953440d6182da090377d805e5156873c.eot");
+    src: url("http://db.onlinewebfonts.com/t/953440d6182da090377d805e5156873c.eot?#iefix")format("embedded-opentype"),
+        url("http://db.onlinewebfonts.com/t/953440d6182da090377d805e5156873c.woff")format("woff"),
+        url("http://db.onlinewebfonts.com/t/953440d6182da090377d805e5156873c.woff2")format("woff2"),
+        url("http://db.onlinewebfonts.com/t/953440d6182da090377d805e5156873c.ttf")format("truetype"),
+        url("http://db.onlinewebfonts.com/t/953440d6182da090377d805e5156873c.svg#Korbin W01 Medium\")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+ 
 body{
     height: 100vh;
     padding:0;
