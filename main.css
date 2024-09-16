@@ -4,20 +4,21 @@
     right: 0;
     left: 0;
     top: 0;
-    height: 100px;
     position: fixed;
     padding-left: 200px;
     padding-right: 200px;
+    overflow-x: hidden; 
 }
 body{
     height: 100vh;
     padding:0;
     margin:0;
     min-height: 100vh;
+    overflow-x: hidden; 
 }
 .page1header{
     color: white;
-    font-family: "Korbin W01 Medium";
+    font-family: "Bruno Ace", sans-serif;
     padding-top: 7vh;
     margin-left: 7%;
     font-size: 7vw;
@@ -25,7 +26,7 @@ body{
 }
 .page1text{
     color: white;
-    font-family: "Korbin W01 Medium";
+    font-family: "Bruno Ace", sans-serif;
     padding-top: 15vh;
     margin-left: 5%;
     margin-right: 5%;
@@ -33,7 +34,7 @@ body{
 }
 .page1{
     left: 0;
-	font-family: "Korbin W01 Medium";
+	font-family: "Bruno Ace", sans-serif;
     color: rgb(255, 255, 255);
     text-align:left;
     display:block;
@@ -45,7 +46,7 @@ body{
 }
 .page2header{
     color: white;
-    font-family: "Korbin W01 Medium";
+    font-family: "Bruno Ace", sans-serif;
     padding-top: 7vh;
     margin-left: 7%;
     font-size: 7vw;
@@ -53,14 +54,14 @@ body{
 }
 .page2text{
     color: white;
-    font-family: "Korbin W01 Medium";
+    font-family: "Bruno Ace", sans-serif;
     padding-top: 15vh;
     margin-left: 7%;
     font-size: 3vw;
 }
 .page2{
     left: 0;
-	font-family: "Korbin W01 Medium";
+	font-family: "Bruno Ace", sans-serif;
     color: rgb(255, 255, 255);
     text-align:left;
     display:block;
@@ -71,7 +72,7 @@ body{
     padding:0;
 }
 .splashtext{
-	font-family: "Korbin W01 Medium";
+	font-family: "Bruno Ace", sans-serif;
     font-size: 11vw;
     text-align:left;
     display:flex;
