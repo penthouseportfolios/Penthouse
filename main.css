@@ -7,10 +7,10 @@
     position: fixed;
     padding-left: 200px;
     padding-right: 200px;
-    overflow-x: hidden; 
+ 
 }
 body{
-    height: 100vh;
+    height: 100%;
     padding:0;
     margin:0;
     min-height: 100vh;
@@ -100,11 +100,10 @@ a:hover {
 .fullscreen {
     position: relative;
     width: 100vw;
-    height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url('back2.gif');
+    height: 100%;
+    background: linear-gradient( rgba(22, 22, 22, 0.7), rgba(0, 0, 0, 0.7) ),url('back2.gif');
     background-size: cover;
     background-position: center;
-    overflow-y: scroll;
 }
 .fullscreen-wrapper {
     position: absolute;
