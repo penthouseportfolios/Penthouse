@@ -7,6 +7,8 @@
     position: fixed;
     padding-left: 200px;
     padding-right: 200px;
+    bottom: 0;
+    height: 10vh;
  
 }
 body{
@@ -79,7 +81,7 @@ body{
     position: relative;
     font-weight: bold;
     background-size: cover;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom: 15vh;
     margin-left: 10%;
 }
