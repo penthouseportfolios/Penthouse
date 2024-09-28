@@ -10,15 +10,18 @@ Penthouse Portfolios
 	<link href="main.css" rel="stylesheet" type="text/css"/>
 <body>
   <div class = "navbar">
-    <div class = "companylogoheader">
-      <a href="index.html"><img src="phwhitelogo.png" alt="logo" width="100vw"></a>
+    <div class = "companylogoheader" onclick="window.location.href='index.html'">
+        <img src="phwhitelogo.png" alt="logo" width="100vw">
     </div>
-    <div class = "companynameheader">
-      <h1><a href="index.html">Penthouse Portfolios</a></h1>
+    <ul id="nav-links" class="collapsed">
+      <li><a href="login.html">Client Login</a></li>
+    </ul>
+    <div class = "companynameheader" onclick="toggleMenu()">
+      <h1>Penthouse Portfolios</h1>
     </div>
   </div>
+  <script src="script.js"></script>
 <div class="fullscreen">
-  <div class="fullscreen-wrapper"></div>
   <h3 class = "page1header">
     You've started
   </h3>
@@ -35,7 +38,6 @@ Penthouse Portfolios
     Here is your next clue:
     <br><br><br><br><br><br><br><br><br>
   </div>
-</div>
 </div>
 </body>
 </html>

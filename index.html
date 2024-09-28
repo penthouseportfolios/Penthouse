@@ -4,7 +4,7 @@
 <title>
 Penthouse Portfolios
 </title>
-  <meta name="viewport" content="width=device-width, initial-scale=0.1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Lexend+Tera&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lexend+Tera&display=swap" rel="stylesheet">
   <link href="https://db.onlinewebfonts.com/c/953440d6182da090377d805e5156873c?family=Korbin+W01+Medium" rel="stylesheet">
@@ -12,37 +12,39 @@ Penthouse Portfolios
 
 <body>
   <div class = "navbar">
-    <div class = "companylogoheader">
-      <a href="index.html"><img src="phwhitelogo.png" alt="logo" width="100vw"></a>
+    <div class = "companylogoheader" onclick="window.location.href='index.html'">
+        <img src="phwhitelogo.png" alt="logo" width="100vw">
     </div>
-    <div class = "companynameheader">
-      <h1><a href="index.html">Penthouse Portfolios</a></h1>
+    <ul id="nav-links" class="collapsed">
+      <li><a href="login.php">Client Login</a></li>
+    </ul>
+    <div class = "companynameheader" onclick="toggleMenu()">
+      <h1>Penthouse Portfolios</h1>
     </div>
   </div>
+  <script src="script.js"></script>
 <div class="fullscreen">
-  <div class="fullscreen-wrapper"></div>
-    <h1 class = "splashtext">
-        The Next<br>&emsp;Generation<br>&emsp;&emsp; Is Here ↓
-    </h1>
-    <h3 class = "page1header">
-      About
-    </h3>
-    <div class = "page1text">
-      Penthouse Portfolios is a quantitative technology firm based in Richmond, Virginia that uses proprietary technology to build trading systems tailored to client needs. Our research focuses on the implementation of neural networks into trading environments. 
-    </div>
-    <h3 class = "page1header">
-      Open Positions
-    </h3>
-    <div class = "page1text">
-      Web Developer - <a href="webdevap.html">Apply Here</a>
-    </div>
-    <h3 class = "page1header">
-      Contact
-    </h3>
-    <div class = "page1text">
-      For more information, please email josh@pentport.com
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </div>
+  <h1 class = "splashtext">
+      The Next<br>&emsp;Generation<br>&emsp;&emsp; Is Here ↓
+  </h1>
+  <h3 class = "page1header">
+    About
+  </h3>
+  <div class = "page1text">
+    Penthouse Portfolios is a quantitative technology firm based in Richmond, Virginia that uses proprietary technology to build trading systems tailored to client needs. Our research focuses on the implementation of neural networks into trading environments. 
+  </div>
+  <h3 class = "page1header">
+    Open Positions
+  </h3>
+  <div class = "page1text">
+    Web Developer - <a href="webdevap.html">Apply Here</a>
+  </div>
+  <h3 class = "page1header">
+    Contact
+  </h3>
+  <div class = "page1text">
+    For more information, please email josh@pentport.com
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   </div>
 </div>
 </body>
