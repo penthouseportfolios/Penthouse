@@ -128,12 +128,15 @@ h1{
   }
 .companylogoheader{
     display: flex;
-    padding-left: 200px;
-    padding-right: 00px;
+    padding-right: 200px;
+    padding-left: 00px;
     position: absolute;
     top: 0;
     size: 100%;
-    right: 200px;
+    left: 400px;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 444%;
+    color: white;
 }
 
 /* Menu list */
@@ -143,6 +146,12 @@ ul {
     padding: 0;
     display: flex;
     flex-direction: row;
+    padding-left: 200px;
+    padding-right: 00px;
+    position: absolute;
+    top: 0;
+    size: 100%;
+    right: 200px;
 }
 
 ul li {
